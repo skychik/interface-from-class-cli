@@ -21,6 +21,8 @@ dependencies {
 
     implementation("com.github.kotlinx:ast:ff042c4be8")
 
+    implementation("com.squareup:kotlinpoet:1.9.0")
+
     testImplementation("org.jetbrains.kotlin:kotlin-test") // <7>
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit") // <8>
